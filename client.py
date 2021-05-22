@@ -56,5 +56,5 @@ async def on_reaction_remove(reaction, user):
                 await user.remove_roles(role)
                 print("Removed role " + role_name + " from " + str(user))
 
-
+TOKEN = os.environ['discordtoken']
 client.run(TOKEN)
