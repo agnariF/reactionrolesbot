@@ -16,6 +16,7 @@ ranks = {
     "diamond": "Diamond",
     "champ": "Champ",
     "gc": "Grand Champ",
+    "ssl": "Supersonic Legend",
    }
 
 @client.event
